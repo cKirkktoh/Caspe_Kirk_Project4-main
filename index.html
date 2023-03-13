@@ -2,60 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>Quatro - Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Quatro</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-    <body>
-        <header>
-            <h1>Quatro Logo here</h1>
-            <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+<body>
+    <h1 class="hidden">Photography - A Sight to See</h1>
+    <div class="container">
+        <header id="main-header" class="grid">
+            <div id="header-logo" class="box-color">
+            </div>
+            <nav id="header-nav" class="box-color">
+                <h2 class="hidden">Main Navigation</h2>
             </nav>
         </header>
         <main>
-            <section id="hero">
-                <div class="container">
-                <h2>The Refreshing Taste of Quatro</h2>
-                <p>Quatro is a line of delicious and refreshing beverages made from the finest natural ingredients. With a variety of flavors to choose from, there's a Quatro for everyone.</p>
-                <a href="#products" class="button">Explore Our Products</a>
+            <section id="hero" class="grid">
+                <div id="hero-image" class="box-color"></div>
+                <div id="tag-line" class="box-color">
+                    <h2>The Refreshing Taste of Quatro</h2>
+                    <h2>Quatro is a line of delicious and refreshing beverages made from the finest natural ingredients. With a variety of flavors to choose from, there's a Quatro for everyone</h2>
                 </div>
             </section>
-            <section id="products">
-                <div class="container">
-                <h2>Our Products</h2>
-                <ul>
-                    <li>
-                    <img src="images/product-1.jpg" alt="Quatro Product 1">
+
+            <section id="features-con" class="grid">
+                <h2 class="hidden">Our Products</h2>
+                <section class="feature box-color">
                     <h3>Quatro Original</h3>
                     <p>The classic flavor that started it all. Made with pure cane sugar and real fruit juice.</p>
-                    <button>Add to Cart</button>
-                    </li>
-                    <li>
-                    <img src="images/product-2.jpg" alt="Quatro Product 2">
+                </section>
+                <section class="feature box-color">
                     <h3>Quatro Citrus</h3>
                     <p>A refreshing blend of citrus fruits that will awaken your taste buds.</p>
-                    <button>Add to Cart</button>
-                    </li>
-                    <li>
-                    <img src="images/product-3.jpg" alt="Quatro Product 3">
+                </section>
+                <section class="feature box-color">
                     <h3>Quatro Tropical</h3>
                     <p>A taste of the tropics in every sip. Made with real coconut water and tropical fruit juices.</p>
-                    <button>Add to Cart</button>
-                    </li>
-                </ul>
-                </div>
+                </section>
             </section>
+
         </main>
-        <footer>
-            <p>&copy; 2023 Quatro Beverage Company. All rights reserved.</p>
-        </footer>
-    </body>
+    </div>
+    <div id="footer-con-full" class="box-color">
+        <div class="container">
+            <footer class="grid">
+            </footer>
+        </div>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
 </html>
+
